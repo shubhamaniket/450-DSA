@@ -22,6 +22,7 @@ int main(){
 		int end1 = s.top().second;
 		int start2 = v[i].first;
 		int end2 = v[i].second;
+		int third=start2+1;
 
 		if(end1 < start2){
 			s.push({v[i].first,v[i].second});
