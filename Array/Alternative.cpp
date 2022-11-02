@@ -7,7 +7,7 @@ negative and positive elements in O(1) extra space.
 using namespace std;
 
 void alternateNegPos(int arr[],int n){
-	int neg = 0,pos = 0;
+	int neg = 0,pos = 0;a++
 	int dup = neg;
 	for(int i=0;i<n;i++){
 		if(arr[i] < 0){
